@@ -210,7 +210,7 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "Front End";
+        content: "Desenvolvedor";
     }
     21%,
     40%{
@@ -218,7 +218,7 @@ span{
     }
     41%,
     60%{
-        content: "Desenvolvedor";
+        content: "Front End";
     }
     61%,
     80%{
@@ -226,7 +226,7 @@ span{
     }
     81%,
     100%{
-        content: "Web Developer";
+        content: "HTML & CSS";
     }
 }
 @keyframes typing{
@@ -614,7 +614,7 @@ span{
         border-bottom: 2px solid var(--main-color);
         display: none;
     }
-    .navbar .active{
+    .navbar.active{
         display: block;
     }
     .navbar a{
